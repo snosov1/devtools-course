@@ -1,6 +1,9 @@
 # $1 = youtube video ID
 # dependencies: youtube-dl, avconv (ffmpeg), ImageMagick (convert)
 
+set -e # exit on error
+set -u # disallow unset variables usage
+
 mkdir -p cats
 cd cats
 

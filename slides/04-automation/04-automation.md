@@ -70,7 +70,7 @@
   - Вместе со скриптовыми языками (Bash, Perl, Python, etc)
     предоставляет широчайшие возможности для автоматизации
 
-  _Замечание: Любителям Windows нет поводов для расстройств!_
+  _Замечание: У любителей Windows нет поводов для расстройств!_
 
 # Пример: Составные команды - философия
 
@@ -98,7 +98,7 @@
 
   - Количество просмотров видео на YouTube:
 
-        curl "https://gdata.youtube.com/feeds/api/videos/ImsPLYwVw2I?v=2&alt=json" | \
+        curl "https://gdata.youtube.com/feeds/api/videos/M9ycFnR_V4I?v=2&alt=json" | \
             sed 's/\(.*\)"viewCount":"\([^"]*\)"\(.*\)/\2/'
 
 # Пример: bash
